@@ -1,0 +1,16 @@
+program foo;
+
+i, j, l: int;
+k: bool;
+procedure foo (a : int; b : int) c : int; begin
+	  print a;
+	  print b;
+	  print i;
+end;
+begin
+	i := 2;
+	l := 5;
+	j := i + 3;
+	k := 1 > 0;
+	foo (l, j);
+end;
