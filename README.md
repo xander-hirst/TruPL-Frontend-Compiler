@@ -3,7 +3,9 @@ A compiler for a rudimentary programming language called TruPL
 
 This is the frontend (buffer, lexical analyzer, parser, and semantic analyzer) of the TruPL compiler.
 This progam takes an input text file and determines if the source code is valid TruPL.
-             -./truc t1.txt
+
+
+    -./truc t1.txt
     
 The Buffer (buffer.cpp) is responsible for removing all unnecessary whitespace and comments from the source text file.
 
